@@ -1,0 +1,117 @@
+/*reglas generales*/
+*{
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+img{
+    border-radius:50%;
+    height: 3rem;
+    width: 3rem;
+    overflow: hidden;
+    border: 1px solid #e8ebe4;
+    margin:0.5rem;
+}
+
+li{
+    border: 1px solid #e8ebe4;
+}
+.main{
+    display: flex;
+}
+
+/*menu*/
+.menu{
+    background-color:#fff;
+    min-height: 100vh;
+    width: 20rem;
+    min-width: 20rem;
+}
+.menu ul{
+    flex-direction: column;
+}
+
+/*user box*/
+.user_contact{
+display: flex;
+flex:1;
+align-items: center;
+}
+
+.user_contact img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.user_name{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.user_status{
+    font-size:10px;
+    color: #bec1bb;
+}
+.user_buttons{
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+}
+i{
+    font-size: 1.5rem;
+    margin:1rem;
+    color: #bec1bb;
+}
+/*button*/
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:3rem;
+    background-color:#a491d2;
+}
+.button p{
+   
+    padding:1rem;
+    color: #fff;
+}
+/*contact*/
+.contact{
+    display: flex;
+    align-items: center;
+}
+.conact_data{
+    flex-direction: column;
+}
+.contact_name{
+    font-size: 16px;
+}
+.last_message{
+    font-size: 14px;
+}
+
+/*splash*/
+.splash{
+    display:flex;
+    flex:100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e8ebe4;
+}
+.splash img{
+    width: 20rem;
+    height:20rem;
+    border-radius:0;
+    border:0;
+  }
+.splash p{
+    font-size: 16px;
+}
+.splash span{
+    font-weight: 700;
+}
+.content{
+    max-width: 54ch;
+}
